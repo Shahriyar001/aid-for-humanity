@@ -43,6 +43,12 @@ h2 {
     border-radius: 5px;
     font-size: 22px;
     text-align: center;
+
+}
+
+#option {
+    border: 1px;
+    background-color: black;
 }
 
 p {
@@ -61,6 +67,7 @@ form {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
+    align-items: center;
 }
 
 .obo-radio {
@@ -71,10 +78,11 @@ form {
 
 .flexible-container {
     display: flex;
-    padding-top: 10px;
-    margin-bottom: 100px;
-    text-align: center;
-    margin-left: 32%;
+    align-items: center;
+    margin-bottom: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+
 }
 
 .display-box {
@@ -86,19 +94,22 @@ form {
 #nmbr {
     width: 50%;
     height: 25px;
-    margin-left: 75%;
+    align-items: center;
 
 }
 
-.section-grp {
+#option {
+    border-color: black;
+    background-color: black;
+    width: 20%;
+}
+
+.another-section {
+    align-items: center;
     text-align: center;
-    margin-bottom: 80px;
-    margin-top: 8%;
 }
 
-#nmbr {
-    margin-bottom: 30px;
-}
+
 
 .flexible-cont {
     display: flex;
@@ -166,12 +177,16 @@ form {
     align-items: center;
 }
 
+.section-grp {
+    text-align: center;
+}
+
 label {
     position: relative;
 }
 
 input {
-    border: none;
+    border: black;
     padding: 15px;
     width: 300px;
 }
