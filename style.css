@@ -85,7 +85,7 @@ form {
 
 #nmbr {
     width: 50%;
-    height: 18px;
+    height: 25px;
     margin-left: 75%;
 
 }
@@ -93,6 +93,7 @@ form {
 .section-grp {
     text-align: center;
     margin-bottom: 80px;
+    margin-top: 8%;
 }
 
 #nmbr {
@@ -119,4 +120,53 @@ form {
     border-radius: 10px;
     box-shadow: 10px 10px 40px gray;
 
+}
+
+#aqua {
+    background-color: rgba(0, 255, 255, 0.54);
+}
+
+#gray {
+    background-color: rgba(157, 154, 154, 0.443);
+}
+
+#yellow {
+    background-color: rgb(227, 194, 151);
+}
+
+.last-flexible {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 5%;
+    padding-top: 8%;
+}
+
+.half-width img {
+    width: 80%;
+}
+
+#subscribe {
+    margin-right: 40%;
+    margin-top: 5px;
+}
+
+.second-last {
+    margin-top: 3%;
+    background-color: bisque;
+    width: 50%;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin-left: 25%;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    background-color: black;
 }
