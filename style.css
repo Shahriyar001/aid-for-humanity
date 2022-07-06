@@ -50,9 +50,9 @@ p {
     font-size: 20px;
 }
 
-.second-part {
+.text-part {
     text-align: center;
-    padding-top: 10%;
+    padding-top: 5%;
     color: black;
 
 }
@@ -90,11 +90,33 @@ form {
 
 }
 
-.second-part-all {
+.section-grp {
     text-align: center;
     margin-bottom: 80px;
 }
 
 #nmbr {
     margin-bottom: 30px;
+}
+
+.flexible-cont {
+    display: flex;
+    text-align: left;
+    background-position: center;
+    padding-right: 20px;
+    padding-left: 10px;
+    margin-right: 0px;
+    margin-left: 12%;
+}
+
+.plans-item {
+    width: 80%;
+    padding-left: 3%;
+    padding-right: 1%;
+    margin-right: 12%;
+    padding-top: 3%;
+    padding-bottom: 1%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+
 }
