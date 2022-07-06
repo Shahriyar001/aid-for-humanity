@@ -156,11 +156,35 @@ form {
 
 .second-last {
     margin-top: 3%;
-    background-color: bisque;
+    background-color: rgb(182, 162, 138);
     width: 50%;
     padding-top: 40px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     margin-left: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    position: relative;
+}
+
+input {
+    border: none;
+    padding: 15px;
+    width: 300px;
+}
+
+button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border: none;
+    padding: 15px;
+    background-color: blue;
+    color: white;
 }
 
 footer p {
