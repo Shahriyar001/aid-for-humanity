@@ -1,6 +1,15 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0%;
+}
+
 h1 {
-    font-size: 70px;
+    font-size: 65px;
     color: white;
+}
+
+h2 {
+    font-size: 50px;
 }
 
 
@@ -10,7 +19,7 @@ h1 {
     padding-top: 20%;
     color: white;
     background-color: rgba(103, 67, 67, 0.496);
-    padding-bottom: 4%;
+    padding-bottom: 4.5%;
 
 }
 
@@ -25,23 +34,67 @@ h1 {
 }
 
 
-
-body {
-    margin: 0%;
-    padding-right: 0%;
-}
-
 .link-button {
     text-decoration: none;
-    background-image: linear-gradient(rgb(195, 212, 44), rgb(253, 93, 64));
+    background-image: linear-gradient(rgb(141, 129, 15), tomato);
     color: white;
     font-weight: 600;
     padding: 15px 50px;
     border-radius: 5px;
     font-size: 22px;
+    text-align: center;
 }
 
 p {
     padding-bottom: 20px;
     font-size: 20px;
+}
+
+.second-part {
+    text-align: center;
+    padding-top: 10%;
+    color: black;
+
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.obo-radio {
+    text-align: center;
+    padding: 20px;
+    background-color: aqua;
+}
+
+.flexible-container {
+    display: flex;
+    padding-top: 10px;
+    margin-bottom: 100px;
+    text-align: center;
+    margin-left: 32%;
+}
+
+.display-box {
+    font-weight: 600;
+    margin-bottom: 5px;
+
+}
+
+#nmbr {
+    width: 50%;
+    height: 18px;
+    margin-left: 75%;
+
+}
+
+.second-part-all {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+#nmbr {
+    margin-bottom: 30px;
 }
